@@ -25,7 +25,11 @@ for i in EFO
     fi
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
-      robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
+      if [ $PREFIX == "efo" ];then
+        robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
+       else
+        robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
+       fi
     else
       echo "  $i.list is empty"
     fi
