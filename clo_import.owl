@@ -4308,6 +4308,16 @@ https://www.atcc.org/~/media/7E031EF950594BC3B85A411AE1DC9684.ashx</rdfs:comment
     
 
 
+    <!-- http://purl.obolibrary.org/obo/CLO_0054401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CLO_0054401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CLO_0000511"/>
+        <rdfs:label xml:lang="en">K562 derived cell line cell</rdfs:label>
+        <rdfs:label xml:lang="zh">K562衍生细胞系细胞</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/CL_0000000 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/CL_0000000">

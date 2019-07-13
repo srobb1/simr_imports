@@ -1,7 +1,7 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/data/default
 
 #for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
-for i in EFO 
+for i in CLO 
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
