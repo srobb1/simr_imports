@@ -1,7 +1,9 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/data/default
+DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/definitions.owl
 
 #for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
-for i in CLO 
+for i in NCBITaxon 
+#for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
@@ -22,9 +24,11 @@ for i in CLO
     else
       echo "  finding terms for $i "
       grep ${i}: $TSV_DIR/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/purl.obolibrary.org\/obo\/'$i'_$1/g' | sort | uniq > $i.list 
+      grep ${i}_ $DEFOWL | perl -p -e 's/.+('$i'_\S+).*/http:\/\/purl.obolibrary.org\/obo\/$1/g' | sort | uniq >> $i.list 
     fi
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
+      export ROBOT_JAVA_ARGS=-Xmx12G
       if [ $PREFIX == "efo" ];then
         robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
        else
