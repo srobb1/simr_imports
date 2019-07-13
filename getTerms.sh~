@@ -1,6 +1,7 @@
 
 
-for i in CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+#for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in UO UBERON
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
