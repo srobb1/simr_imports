@@ -1109,6 +1109,127 @@
     
 
 
+    <!-- http://purl.obolibrary.org/obo/NCIT_C23011 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23011">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23043"/>
+        <obo:IAO_0000115>Hematoxylin-and-eosin, or H&amp;E, is a routine staining procedure of tissue sections. This staining method uses two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C23011</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Hematoxylin and Eosin Staining Method</obo:NCIT_P107>
+        <obo:NCIT_P108>Hematoxylin and Eosin Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C0523207</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A microscopy staining method that utilizes two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.</obo:NCIT_P325>
+        <obo:NCIT_P366>Hematoxylin_and_Eosin_Staining_Method</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>H and E</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H and E Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H and E Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H&amp;E</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H&amp;E Stain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H&amp;E Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>H&amp;E Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>HEMATOXYLIN AND EOSIN STAIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hematoxylin and Eosin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hematoxylin and Eosin Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Hematoxylin and Eosin Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85492"/>
+        <rdfs:label>Hematoxylin and Eosin Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Hematoxylin-and-eosin, or H&amp;E, is a routine staining procedure of tissue sections. This staining method uses two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes two separate dyes, one staining the nucleus and the other staining the cytoplasm and connective tissue. Hematoxylin is a dark purplish dye that stains the chromatin (nuclear material) within the nucleus. Eosin is an orangish-pink to red dye that stains the cytoplasmic material including connective tissue and collagen.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H and E</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H and E Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H and E Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H&amp;E</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H&amp;E Stain</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H&amp;E Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>H&amp;E Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>HEMATOXYLIN AND EOSIN STAIN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hematoxylin and Eosin</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hematoxylin and Eosin Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23011"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Hematoxylin and Eosin Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/NCIT_C23012 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23012">
@@ -1152,6 +1273,44 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Trichrome Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C23043 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23043">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <obo:IAO_0000115>&quot;Routine&quot; histology staining generally refers to staining performed using hematoxylin and eosin. Hematoxylin stains the nuclei in cells and other cationic elements purple. Eosin is an anionic dye and binds to cytoplasmic proteins below pH6 giving a pink color. (From Biogenex)</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C23043</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Routine Histology Staining Method</obo:NCIT_P107>
+        <obo:NCIT_P108>Routine Histology Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519113</obo:NCIT_P207>
+        <obo:NCIT_P366>Routine_Histology_Staining_Method</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Routine Histology Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Routine Histology Staining Method</oboInOwl:hasExactSynonym>
+        <rdfs:label>Routine Histology Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23043"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>&quot;Routine&quot; histology staining generally refers to staining performed using hematoxylin and eosin. Hematoxylin stains the nuclei in cells and other cationic elements purple. Eosin is an anionic dye and binds to cytoplasmic proteins below pH6 giving a pink color. (From Biogenex)</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Routine Histology Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23043"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Routine Histology Staining Method</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
@@ -1227,6 +1386,45 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>In medicine, a treatment or action taken to prevent or treat disease, or improve health in other ways.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The drug, device, therapy, or process under investigation in a clinical study that is believed to have an effect on outcomes of interest in a study (e.g., health-related quality of life, efficacy, safety, pharmacoeconomics). See also: test articles; devices; drug product; medicinal product; combination product.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention Strategies</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention or Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Intervention or Procedure</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
@@ -1274,45 +1472,6 @@
         <owl:annotatedTarget>interventionDescription</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>BRIDG</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</owl:annotatedTarget>
-        <obo:NCIT_P378>NCI</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
-        <owl:annotatedTarget>In medicine, a treatment or action taken to prevent or treat disease, or improve health in other ways.</owl:annotatedTarget>
-        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
-        <owl:annotatedTarget>The drug, device, therapy, or process under investigation in a clinical study that is believed to have an effect on outcomes of interest in a study (e.g., health-related quality of life, efficacy, safety, pharmacoeconomics). See also: test articles; devices; drug product; medicinal product; combination product.</owl:annotatedTarget>
-        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Intervention</owl:annotatedTarget>
-        <obo:NCIT_P383>SY</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Intervention Strategies</owl:annotatedTarget>
-        <obo:NCIT_P383>SY</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
-        <owl:annotatedTarget>Intervention or Procedure</owl:annotatedTarget>
-        <obo:NCIT_P383>PT</obo:NCIT_P383>
-        <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>
     
 
@@ -1581,6 +1740,53 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74942"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
         <owl:annotatedTarget>Anatomic Pathology Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92299 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92299">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <obo:IAO_0000115>A microscopy staining method that utilizes alcian blue, a cationic, water soluble copper-containing phthalocyanine dye to determine the presence of acid mucopolysaccharides and glycosaminoglycans.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C92299</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Alcian Blue Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C1293946</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A microscopy staining method that utilizes alcian blue, a cationic, water soluble copper-containing phthalocyanine dye to determine the presence of acid mucopolysaccharides and glycosaminoglycans.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>ALCIAN BLUE STAIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Alcian Blue Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85492"/>
+        <rdfs:label>Alcian Blue Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes alcian blue, a cationic, water soluble copper-containing phthalocyanine dye to determine the presence of acid mucopolysaccharides and glycosaminoglycans.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92299"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes alcian blue, a cationic, water soluble copper-containing phthalocyanine dye to determine the presence of acid mucopolysaccharides and glycosaminoglycans.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>ALCIAN BLUE STAIN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92299"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Alcian Blue Staining Method</owl:annotatedTarget>
         <obo:NCIT_P383>PT</obo:NCIT_P383>
         <obo:NCIT_P384>NCI</obo:NCIT_P384>
     </owl:Axiom>

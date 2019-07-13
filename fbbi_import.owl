@@ -1933,6 +1933,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000007 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000007">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000003"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000007</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">methanol fixed tissue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbi_00000008 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000008">
@@ -1966,6 +1977,17 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000013 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000013">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00001012"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000013</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">cryofixed tissue</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbi_00000014 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000014">
@@ -1973,6 +1995,72 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000014</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">unfixed tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000015 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000015">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000001"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000015</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">embedded tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000016 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000016">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000015"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000016</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue in plastic embedment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000017 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000017">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000016"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000017</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue in acrylic resin embedment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000018 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000018">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000016"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000018</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue in epoxy resin embedment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000019 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000019">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000015"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000019</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue in wax embedment</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000020 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000020">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000019"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000020</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">tissue in paraffin embedment</rdfs:label>
     </owl:Class>
     
 
@@ -1993,6 +2081,28 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Unfixed fully hydrated tissue, typically employed to monitor dynamic changes in the living state.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">XX:ISBN978-087969683-2</oboInOwl:hasDbXref>
     </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000026 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000026">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000001"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000026</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sectioned tissue</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000030 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000030">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000026"/>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000030</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vibratome-sectioned tissue</rdfs:label>
+    </owl:Class>
     
 
 
@@ -2227,6 +2337,18 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000128</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">vizualization of label conjugated to probe</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000158 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000158">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000456"/>
+        <obo:IAO_0000589 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visualization of acid phosphatase conjugated to probe</obo:IAO_0000589>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000158</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">acid phosphatase</rdfs:label>
     </owl:Class>
     
 
@@ -2614,6 +2736,19 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000419 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000419">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000013"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-17T01:55:02Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000419</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freeze_fracture/freeze_etch</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbi_00000420 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000420">
@@ -2793,6 +2928,20 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000455</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fluorescent label</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000456 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000456">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000128"/>
+        <obo:IAO_0000589 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">visualization of enzyme label conjugated to probe</obo:IAO_0000589>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-03-14T10:25:58Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000456</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">enzyme label</rdfs:label>
     </owl:Class>
     
 
@@ -3189,6 +3338,34 @@ Each of these 3 primitives can be composed to yield a cross-product of different
     
 
 
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000581 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000581">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000013"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen from which water has been removed by a process that avoids liquid-gas and solid-gas phase transitions.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-05-04T12:31:12Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000581</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">critical_point dried specimen</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000583 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000583">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000013"/>
+        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">specimen from which water has been removed by evaporation under vacuum at a temperature below freezing.</obo:IAO_0000115>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2010-05-04T12:49:31Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000583</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">lyophilized specimen</rdfs:label>
+    </owl:Class>
+    
+
+
     <!-- http://purl.obolibrary.org/obo/FBbi_00000584 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000584">
@@ -3200,6 +3377,19 @@ Each of these 3 primitives can be composed to yield a cross-product of different
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000584</oboInOwl:id>
         <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">X-Rhodamine</rdfs:label>
+    </owl:Class>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/FBbi_00000621 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/FBbi_00000621">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/FBbi_00000013"/>
+        <oboInOwl:created_by rdf:datatype="http://www.w3.org/2001/XMLSchema#string">jm</oboInOwl:created_by>
+        <oboInOwl:creation_date rdf:datatype="http://www.w3.org/2001/XMLSchema#string">2011-05-23T10:51:16Z</oboInOwl:creation_date>
+        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">image</oboInOwl:hasOBONamespace>
+        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">FBbi:00000621</oboInOwl:id>
+        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">freeze-substituted tissue</rdfs:label>
     </owl:Class>
     
 
