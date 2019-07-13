@@ -1,7 +1,7 @@
+TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/data/default
 
-
-#for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
-for i in CHEBI
+#for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in EFO 
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
@@ -18,10 +18,10 @@ for i in CHEBI
 
     if [ $PREFIX == "efo" ];then
       echo "  finding terms for $i"
-      grep ${i}: ../../patterns/data/default/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/www.ebi.ac.uk\/efo\/EFO_$1/g' | sort | uniq > EFO.list
+      grep ${i}: $TSV_DIR/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/www.ebi.ac.uk\/efo\/EFO_$1/g' | sort | uniq > EFO.list
     else
       echo "  finding terms for $i "
-      grep ${i}: ../../patterns/data/default/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/purl.obolibrary.org\/obo\/'$i'_$1/g' | sort | uniq > $i.list 
+      grep ${i}: $TSV_DIR/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/purl.obolibrary.org\/obo\/'$i'_$1/g' | sort | uniq > $i.list 
     fi
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
