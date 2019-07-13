@@ -1,0 +1,1639 @@
+<?xml version="1.0"?>
+<rdf:RDF xmlns="http://purl.obolibrary.org/obo/ncit.owl#"
+     xml:base="http://purl.obolibrary.org/obo/ncit.owl"
+     xmlns:obo="http://purl.obolibrary.org/obo/"
+     xmlns:owl="http://www.w3.org/2002/07/owl#"
+     xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+     xmlns:xml="http://www.w3.org/XML/1998/namespace"
+     xmlns:xsd="http://www.w3.org/2001/XMLSchema#"
+     xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+     xmlns:oboInOwl="http://www.geneontology.org/formats/oboInOwl#">
+    <owl:Ontology rdf:about="http://purl.obolibrary.org/obo/ncit.owl"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Annotation properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/IAO_0000115 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/IAO_0000115"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_A11 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_A11"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_NHC0 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_NHC0"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P106 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P106"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P107 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P107"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P108 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P108"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P207 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P207"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P208 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P208"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P310 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P310"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P322 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P322"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P325 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P325"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P366 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P366"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P368 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P368"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P371 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P371"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P378 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P378"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P381 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P381"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P383 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P383"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P384 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P384"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P385 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P385"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P386 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P386"/>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_P98 -->
+
+    <owl:AnnotationProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_P98"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#hasExactSynonym -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+    
+
+
+    <!-- http://www.geneontology.org/formats/oboInOwl#inSubset -->
+
+    <owl:AnnotationProperty rdf:about="http://www.geneontology.org/formats/oboInOwl#inSubset"/>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Object Properties
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R49 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R49">
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <obo:IAO_0000115>A role used to specify that a normal tissue is the normal location for the expression of a gene product. The domain and range for this role are &apos;Gene Product&apos; and &apos;Anatomic Structure, System, or Substance&apos;, respectively.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>R49</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Expressed In Tissue</obo:NCIT_P107>
+        <obo:NCIT_P108>Gene_Product_Expressed_In_Tissue</obo:NCIT_P108>
+        <obo:NCIT_P98>This information is often useful to researchers. However, we no longer curate this information and now favor linking out to externally curated databases. Source database for the link has yet to be decided.</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Gene_Product_Expressed_In_Tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label>Gene_Product_Expressed_In_Tissue</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_R49"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role used to specify that a normal tissue is the normal location for the expression of a gene product. The domain and range for this role are &apos;Gene Product&apos; and &apos;Anatomic Structure, System, or Substance&apos;, respectively.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_R49"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gene_Product_Expressed_In_Tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_R82 -->
+
+    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/NCIT_R82">
+        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
+        <rdfs:domain rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <rdfs:range rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <obo:IAO_0000115>A role used to indicate that an anatomic structure has a physical association with a broader system or organ. Both the domain and range for this role are &apos;Anatomic Structure, System, or Substance&apos;.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>R82</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P107>Is Physical Part Of</obo:NCIT_P107>
+        <obo:NCIT_P108>Anatomic_Structure_Is_Physical_Part_Of</obo:NCIT_P108>
+        <oboInOwl:hasExactSynonym>Anatomic_Structure_Is_Physical_Part_Of</oboInOwl:hasExactSynonym>
+        <rdfs:label>Anatomic_Structure_Is_Physical_Part_Of</rdfs:label>
+    </owl:ObjectProperty>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_R82"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A role used to indicate that an anatomic structure has a physical association with a broader system or organ. Both the domain and range for this role are &apos;Anatomic Structure, System, or Substance&apos;.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_R82"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatomic_Structure_Is_Physical_Part_Of</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- 
+    ///////////////////////////////////////////////////////////////////////////////////////
+    //
+    // Classes
+    //
+    ///////////////////////////////////////////////////////////////////////////////////////
+     -->
+
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C118401 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C118401">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <obo:IAO_0000115>A staining method used to demonstrate the presence of acid phosphatase and tartrate resistant acid phosphatase (TRAP) in osteoclasts.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C118401</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Tartrate Resistant Acid Phosphatase Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C3897371</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>TRACP Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TRAP Stain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TRAP Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tartrate Resistant Acid Phosphatase Staining Method</oboInOwl:hasExactSynonym>
+        <rdfs:label>Tartrate Resistant Acid Phosphatase Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118401"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A staining method used to demonstrate the presence of acid phosphatase and tartrate resistant acid phosphatase (TRAP) in osteoclasts.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TRACP Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TRAP Stain</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TRAP Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118401"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tartrate Resistant Acid Phosphatase Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C120047 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C120047">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
+        <obo:IAO_0000115>A method that sequentially exposes tissues samples to three acid dyes and acid washes, which can differentiate between collagen and smooth muscle in those samples. The classic recipe for this histological staining method uses Weigert&apos;s Iron hematoxylin, which stains nuclei brown or black, Biebrich Scarlet, which dyes the cytoplasm, muscle and keratin pink or red, and aniline blue, which stains collagen and bone blue or green.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C120047</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Masson Trichrome Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C1294297</obo:NCIT_P207>
+        <oboInOwl:hasExactSynonym>Masson Trichrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masson Trichrome Stain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masson Trichrome Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masson&apos;s Trichrome</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masson&apos;s Trichrome Stain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Masson&apos;s Trichrome Staining Method</oboInOwl:hasExactSynonym>
+        <rdfs:label>Masson Trichrome Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A method that sequentially exposes tissues samples to three acid dyes and acid washes, which can differentiate between collagen and smooth muscle in those samples. The classic recipe for this histological staining method uses Weigert&apos;s Iron hematoxylin, which stains nuclei brown or black, Biebrich Scarlet, which dyes the cytoplasm, muscle and keratin pink or red, and aniline blue, which stains collagen and bone blue or green.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson Trichrome</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson Trichrome Stain</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson Trichrome Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson&apos;s Trichrome</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson&apos;s Trichrome Stain</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C120047"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Masson&apos;s Trichrome Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12219 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12219">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <obo:IAO_0000115>A human biological structure, fluid or other substance; excludes single molecular entities.</obo:IAO_0000115>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <obo:NCIT_NHC0>C12219</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <obo:NCIT_P107>Anatomical Concepts</obo:NCIT_P107>
+        <obo:NCIT_P108>Anatomic Structure, System, or Substance</obo:NCIT_P108>
+        <obo:NCIT_P207>C1515976</obo:NCIT_P207>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P366>Anatomic_Structure_System_or_Substance</obo:NCIT_P366>
+        <obo:NCIT_P371>Anatomic Structure, System, or Substance</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Anatomic Structure, System, or Substance</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Anatomic Structures and Systems</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <rdfs:label>Anatomic Structure, System, or Substance</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A human biological structure, fluid or other substance; excludes single molecular entities.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatomic Structure, System, or Substance</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatomic Structure, System, or Substance</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatomic Structures and Systems</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12508 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12508">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21599"/>
+        <obo:IAO_0000115>The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C12508</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>Cell Types</obo:NCIT_P107>
+        <obo:NCIT_P108>Cell</obo:NCIT_P108>
+        <obo:NCIT_P207>C0007634</obo:NCIT_P207>
+        <obo:NCIT_P322>CPTAC</obo:NCIT_P322>
+        <obo:NCIT_P322>UCUM</obo:NCIT_P322>
+        <obo:NCIT_P325>The individual unit that makes up all of the tissues of the body. All living things are made up of one or more cells.</obo:NCIT_P325>
+        <obo:NCIT_P366>Cell</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cell Type</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cell Types</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Cellular</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Normal Cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>{Cells}</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67567"/>
+        <rdfs:label>Cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>The smallest units of living structure capable of independent existence, composed of a membrane-enclosed mass of protoplasm and containing a nucleus or nucleoid.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The individual unit that makes up all of the tissues of the body. All living things are made up of one or more cells.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cell</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cell</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cell Type</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cell Types</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cells</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>UCUM</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cells</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Cellular</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Normal Cell</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>cell</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046476</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>{Cells}</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>UCUM</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12578 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12578">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12508"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_R82"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45714"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>Any of the cells of the epithelium, which covers the body and lines its cavities and glands.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C12578</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Cell</obo:NCIT_P106>
+        <obo:NCIT_P107>Epithelial Cell</obo:NCIT_P107>
+        <obo:NCIT_P108>Epithelial Cell</obo:NCIT_P108>
+        <obo:NCIT_P207>C0014597</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>Any of the cells of the epithelium, which covers the body and lines its cavities and glands.</obo:NCIT_P325>
+        <obo:NCIT_P366>Epithelial_Cell</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>EPITHELIAL CELL</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epithelial Cell</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Epithelial Cells</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78734"/>
+        <rdfs:label>Epithelial Cell</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any of the cells of the epithelium, which covers the body and lines its cavities and glands.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Any of the cells of the epithelium, which covers the body and lines its cavities and glands.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>EPITHELIAL CELL</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Epithelial Cell</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Epithelial Cells</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C12801 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C12801">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <obo:IAO_0000115>An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C12801</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Tissue</obo:NCIT_P106>
+        <obo:NCIT_P107>Tissue</obo:NCIT_P107>
+        <obo:NCIT_P108>Tissue</obo:NCIT_P108>
+        <obo:NCIT_P207>C0040300</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A group or layer of cells that work together to perform a specific function.</obo:NCIT_P325>
+        <obo:NCIT_P325>An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function. (NCI)</obo:NCIT_P325>
+        <obo:NCIT_P366>Tissue</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Normal Tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>TISSUE</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tissues</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>tissue</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C78734"/>
+        <rdfs:label>Tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A group or layer of cells that work together to perform a specific function.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>An anatomical structure consisting of similarly specialized cells and intercellular matrix, aggregated according to genetically determined spatial relationships, performing a specific function. (NCI)</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Normal Tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TISSUE</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tissues</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046683</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16203 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16203">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <obo:IAO_0000115>Any specific activity undertaken during the course of a clinical study or research protocol.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16203</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Clinical or Research Activity</obo:NCIT_P108>
+        <obo:NCIT_P207>C1516654</obo:NCIT_P207>
+        <obo:NCIT_P366>Clinical_or_Research_Activity</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Clinical or Research Activity</oboInOwl:hasExactSynonym>
+        <rdfs:label>Clinical or Research Activity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16203"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any specific activity undertaken during the course of a clinical study or research protocol.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16203"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Clinical or Research Activity</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16642 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16642">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20028"/>
+        <obo:IAO_0000115>A conjugated protein having a carbohydrate component.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16642</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P108>Glycoprotein</obo:NCIT_P108>
+        <obo:NCIT_P207>C0017968</obo:NCIT_P207>
+        <obo:NCIT_P325>A protein that has sugar molecules attached to it.</obo:NCIT_P325>
+        <obo:NCIT_P366>Glycoprotein</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:17089</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Glycoprotein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>glycoprotein</oboInOwl:hasExactSynonym>
+        <rdfs:label>Glycoprotein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16642"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A conjugated protein having a carbohydrate component.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16642"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A protein that has sugar molecules attached to it.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Glycoprotein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16642"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>glycoprotein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000044034</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16680 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16680">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74942"/>
+        <obo:IAO_0000115>Technique or procedure used for the study of the microanatomy of tissues and their cellular structure; usually involves microscopic examination of tissue slices.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16680</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Histological Procedure</obo:NCIT_P107>
+        <obo:NCIT_P108>Histological Procedure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0019637</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>The examination of tissue specimens under a microscope.</obo:NCIT_P325>
+        <obo:NCIT_P366>Histological_Techniques</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Histologic Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histological Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histological Technique</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Histological Techniques</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>histologic examination</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <rdfs:label>Histological Procedure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Technique or procedure used for the study of the microanatomy of tissues and their cellular structure; usually involves microscopic examination of tissue slices.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The examination of tissue specimens under a microscope.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Histologic Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Histological Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Histological Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Histological Technique</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Histological Techniques</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>histologic examination</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000044834</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C16883 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C16883">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16642"/>
+        <rdfs:subClassOf>
+            <owl:Restriction>
+                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_R49"/>
+                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12578"/>
+            </owl:Restriction>
+        </rdfs:subClassOf>
+        <obo:IAO_0000115>An albuminoid substance containing mucopolysaccharides and protein which is contained in mucus, and gives to the latter secretion its peculiar ropy character. It is found in all the secretions from mucous glands, and also between the fibres of connective tissue, as in tendons.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C16883</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P108>Mucin</obo:NCIT_P108>
+        <obo:NCIT_P207>C0026682</obo:NCIT_P207>
+        <obo:NCIT_P366>Mucin</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Mucin</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Mucus Glycoprotein</oboInOwl:hasExactSynonym>
+        <rdfs:label>Mucin</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16883"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An albuminoid substance containing mucopolysaccharides and protein which is contained in mucus, and gives to the latter secretion its peculiar ropy character. It is found in all the secretions from mucous glands, and also between the fibres of connective tissue, as in tendons.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+        <obo:NCIT_P381>from On-line Medical Dictionary</obo:NCIT_P381>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16883"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mucin</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16883"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Mucus Glycoprotein</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C17021 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C17021">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <obo:IAO_0000115>A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C17021</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Amino Acid, Peptide, or Protein</obo:NCIT_P106>
+        <obo:NCIT_P108>Protein</obo:NCIT_P108>
+        <obo:NCIT_P207>C0033684</obo:NCIT_P207>
+        <obo:NCIT_P325>A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies.</obo:NCIT_P325>
+        <obo:NCIT_P366>Protein</obo:NCIT_P366>
+        <obo:NCIT_P368>CHEBI:36080</obo:NCIT_P368>
+        <oboInOwl:hasExactSynonym>Protein</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Protein (NOS)</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Proteins</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>protein</oboInOwl:hasExactSynonym>
+        <rdfs:label>Protein</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A group of complex organic macromolecules composed of one or more chains (linear polymers) of alpha-L-amino acids linked by peptide bonds and ranging in size from a few thousand to over 1 million Daltons. Proteins are fundamental genetically encoded components of living cells with specific structures and functions dictated by amino acid sequence.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A molecule made up of amino acids that are needed for the body to function properly. Proteins are the basis of body structures such as skin and hair and of substances such as enzymes, cytokines, and antibodies.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein (NOS)</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>DCP</obo:NCIT_P384>
+        <obo:NCIT_P385>31102</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Proteins</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>protein</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046092</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C20028 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C20028">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C17021"/>
+        <obo:IAO_0000115>Organizing term for the Proteins tree</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C20028</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <obo:NCIT_P108>Protein, Organized by Structure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0175168</obo:NCIT_P207>
+        <obo:NCIT_P310>Header_Concept</obo:NCIT_P310>
+        <obo:NCIT_P366>Protein_Organized_by_Structure</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Protein, Organized by Structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Proteins [By Structure]</oboInOwl:hasExactSynonym>
+        <rdfs:label>Protein, Organized by Structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20028"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Organizing term for the Proteins tree</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20028"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Protein, Organized by Structure</owl:annotatedTarget>
+        <obo:NCIT_P383>HD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C20028"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Proteins [By Structure]</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C21599 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C21599">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12219"/>
+        <obo:IAO_0000115>Those anatomic structures that are generally only visible through the use of microscopy.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C21599</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Conceptual Entity</obo:NCIT_P106>
+        <obo:NCIT_P108>Microanatomic Structure</obo:NCIT_P108>
+        <obo:NCIT_P207>C1513264</obo:NCIT_P207>
+        <obo:NCIT_P366>Microanatomy</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Microanatomic Structure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Microanatomy</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Microscopic Anatomy</oboInOwl:hasExactSynonym>
+        <rdfs:label>Microanatomic Structure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21599"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Those anatomic structures that are generally only visible through the use of microscopy.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21599"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Microanatomic Structure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21599"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Microanatomy</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C21599"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Microscopic Anatomy</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C23010 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23010">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16680"/>
+        <obo:IAO_0000115>Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C23010</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Staining Method</obo:NCIT_P107>
+        <obo:NCIT_P108>Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C0487602</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P325>To dye or tint tissues or other biological samples for the purpose of imaging structures.</obo:NCIT_P325>
+        <obo:NCIT_P366>Staining_Methods</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>STAINING</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Stain</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C124297"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <rdfs:label>Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any of the various methods that use a dye, reagent, or other material for producing coloration in tissues or microorganisms for microscopic examination.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>To dye or tint tissues or other biological samples for the purpose of imaging structures.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>STAINING</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Stain</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C23012 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23012">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <obo:IAO_0000115>A histological staining method that uses acid dyes and washes to selectively dye the structural elements in tissue samples in three or more contrasting colors.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C23012</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Trichrome Staining Method</obo:NCIT_P107>
+        <obo:NCIT_P108>Trichrome Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C1318478</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A microscopy staining method that utilizes two or more colored, acidic dyes of contrasting colors. Masson trichrome is a mixture of three dyes including aniline blue, Beibrich scarlet and Weigert&apos;s iron hematoxylin. Other related, modified trichrome staining methods include Lillie&apos;s trichrome, Gomori&apos;s trichrome and Mallory&apos;s trichrome.</obo:NCIT_P325>
+        <obo:NCIT_P366>Trichrome_Staining_Method</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>TRICHROME STAIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Trichrome Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85492"/>
+        <rdfs:label>Trichrome Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A histological staining method that uses acid dyes and washes to selectively dye the structural elements in tissue samples in three or more contrasting colors.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes two or more colored, acidic dyes of contrasting colors. Masson trichrome is a mixture of three dyes including aniline blue, Beibrich scarlet and Weigert&apos;s iron hematoxylin. Other related, modified trichrome staining methods include Lillie&apos;s trichrome, Gomori&apos;s trichrome and Mallory&apos;s trichrome.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TRICHROME STAIN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23012"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Trichrome Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C23044 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C23044">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23010"/>
+        <obo:IAO_0000115>Histological technique in which special stains are used to visualize specific tissue and cellular structures. These are dyes that bind to the cellular components either physically or by chemical bonds. (From Biogenex).</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C23044</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Special Histology Staining Method</obo:NCIT_P107>
+        <obo:NCIT_P108>Special Histology Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C1519436</obo:NCIT_P207>
+        <obo:NCIT_P366>Special_Histology_Staining_Method</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Special Histology Staining</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Special Histology Staining Method</oboInOwl:hasExactSynonym>
+        <rdfs:label>Special Histology Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Histological technique in which special stains are used to visualize specific tissue and cellular structures. These are dyes that bind to the cellular components either physically or by chemical bonds. (From Biogenex).</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Special Histology Staining</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Special Histology Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25218 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25218">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C16203"/>
+        <obo:IAO_0000115>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</obo:IAO_0000115>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <obo:NCIT_NHC0>C25218</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Health Care Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Intervention or Procedure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0184661</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC-GLOSS</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>In medicine, a treatment or action taken to prevent or treat disease, or improve health in other ways.</obo:NCIT_P325>
+        <obo:NCIT_P325>The drug, device, therapy, or process under investigation in a clinical study that is believed to have an effect on outcomes of interest in a study (e.g., health-related quality of life, efficacy, safety, pharmacoeconomics). See also: test articles; devices; drug product; medicinal product; combination product.</obo:NCIT_P325>
+        <obo:NCIT_P366>Procedure</obo:NCIT_P366>
+        <obo:NCIT_P371>Intervention or Procedure</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intervention Strategies</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Intervention or Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Interventional</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>intervention</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>interventionDescription</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C67497"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C99147"/>
+        <rdfs:label>Intervention or Procedure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention or Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Interventional</owl:annotatedTarget>
+        <obo:NCIT_P383>AD</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC-GLOSS</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000454757</obo:NCIT_P385>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>interventionDescription</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An activity that produces an effect, or that is intended to alter the course of a disease in a patient or population. This is a general term that encompasses the medical, social, behavioral, and environmental acts that can have preventive, therapeutic, or palliative effects.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>In medicine, a treatment or action taken to prevent or treat disease, or improve health in other ways.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>The drug, device, therapy, or process under investigation in a clinical study that is believed to have an effect on outcomes of interest in a study (e.g., health-related quality of life, efficacy, safety, pharmacoeconomics). See also: test articles; devices; drug product; medicinal product; combination product.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention Strategies</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Intervention or Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C25294 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C25294">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25218"/>
+        <obo:IAO_0000115>Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.</obo:IAO_0000115>
+        <obo:NCIT_A11 rdf:resource="http://purl.obolibrary.org/obo/NCIT_C18020"/>
+        <obo:NCIT_NHC0>C25294</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P107>Laboratory Procedure</obo:NCIT_P107>
+        <obo:NCIT_P108>Laboratory Procedure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0022885</obo:NCIT_P207>
+        <obo:NCIT_P322>CTRP</obo:NCIT_P322>
+        <obo:NCIT_P322>NICHD</obo:NCIT_P322>
+        <obo:NCIT_P325>A medical procedure that involves testing a sample of blood, urine, or other substance from the body. Tests can help determine a diagnosis, plan treatment, check to see if treatment is working, or monitor the disease over time.</obo:NCIT_P325>
+        <obo:NCIT_P366>Test</obo:NCIT_P366>
+        <obo:NCIT_P371>Laboratory Procedure</obo:NCIT_P371>
+        <oboInOwl:hasExactSynonym>Lab Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Lab Tests</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Laboratory Procedure</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Laboratory Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Test</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Tests</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>laboratory test</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C116977"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C118169"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C89506"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C90259"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C99147"/>
+        <rdfs:label>Laboratory Procedure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>Any procedure that involves testing or manipulating a sample of blood, urine, or other body substance in a laboratory setting.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A medical procedure that involves testing a sample of blood, urine, or other substance from the body. Tests can help determine a diagnosis, plan treatment, check to see if treatment is working, or monitor the disease over time.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI-GLOSS</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lab Test</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Lab Tests</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Laboratory Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>DN</obo:NCIT_P383>
+        <obo:NCIT_P384>CTRP</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Laboratory Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Laboratory Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NICHD</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Laboratory Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>TCGA</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Laboratory Test</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Test</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Tests</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>laboratory test</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI-GLOSS</obo:NCIT_P384>
+        <obo:NCIT_P385>CDR0000046590</obo:NCIT_P385>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C26548 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C26548">
+        <owl:disjointWith rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <obo:IAO_0000115>A protein, RNA or a complex that contains proteins and/or RNA.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C26548</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Classification</obo:NCIT_P106>
+        <obo:NCIT_P108>Gene Product</obo:NCIT_P108>
+        <obo:NCIT_P207>C1704222</obo:NCIT_P207>
+        <obo:NCIT_P366>Gene_Product</obo:NCIT_P366>
+        <obo:NCIT_P98>In NCI Thesaurus: includes Proteins, Functional RNAs, Protein Complexes, and Riboprotein Complexes</obo:NCIT_P98>
+        <oboInOwl:hasExactSynonym>Gene Product</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Genome Encoded Entity</oboInOwl:hasExactSynonym>
+        <rdfs:label>Gene Product</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A protein, RNA or a complex that contains proteins and/or RNA.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Gene Product</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C26548"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Genome Encoded Entity</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C43431 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C43431">
+        <obo:IAO_0000115>An active process; excludes processes and mechanisms which fulfill biological functions.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C43431</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Activity</obo:NCIT_P106>
+        <obo:NCIT_P108>Activity</obo:NCIT_P108>
+        <obo:NCIT_P207>C0441655</obo:NCIT_P207>
+        <obo:NCIT_P322>BRIDG</obo:NCIT_P322>
+        <obo:NCIT_P325>Any action that can, in the context of a study or a post-marketing investigation, be defined, planned, scheduled or performed. EXAMPLE(S): surgical procedure, laboratory test, administration of a drug.</obo:NCIT_P325>
+        <obo:NCIT_P366>Activity</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>General activity</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C105551"/>
+        <rdfs:label>Activity</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>An active process; excludes processes and mechanisms which fulfill biological functions.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>Any action that can, in the context of a study or a post-marketing investigation, be defined, planned, scheduled or performed. EXAMPLE(S): surgical procedure, laboratory test, administration of a drug.</owl:annotatedTarget>
+        <obo:NCIT_P378>BRIDG</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Activity</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>BRIDG</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Activity</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Activity</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>MPN-SAF</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C43431"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>General activity</owl:annotatedTarget>
+        <obo:NCIT_P383>SY</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+        <obo:NCIT_P385>MDASI-HN</obo:NCIT_P385>
+        <obo:NCIT_P386>caDSR</obo:NCIT_P386>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C45714 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C45714">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C12801"/>
+        <obo:NCIT_NHC0>C45714</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Tissue</obo:NCIT_P106>
+        <obo:NCIT_P108>Epithelial Tissue</obo:NCIT_P108>
+        <obo:NCIT_P208>CL448688</obo:NCIT_P208>
+        <obo:NCIT_P366>Epithelial_Tissue</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Epithelial Tissue</oboInOwl:hasExactSynonym>
+        <rdfs:label>Epithelial Tissue</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C45714"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Epithelial Tissue</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C74942 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C74942">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C25294"/>
+        <obo:IAO_0000115>A laboratory procedure that involves the examination of tissues or cells for diagnostic or research purposes.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C74942</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Anatomic Pathology Procedure</obo:NCIT_P108>
+        <obo:NCIT_P207>C0200712</obo:NCIT_P207>
+        <obo:NCIT_P366>Anatomic_Pathology_Procedure</obo:NCIT_P366>
+        <oboInOwl:hasExactSynonym>Anatomic Pathology Procedure</oboInOwl:hasExactSynonym>
+        <rdfs:label>Anatomic Pathology Procedure</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74942"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A laboratory procedure that involves the examination of tissues or cells for diagnostic or research purposes.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C74942"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Anatomic Pathology Procedure</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+    
+
+
+    <!-- http://purl.obolibrary.org/obo/NCIT_C92302 -->
+
+    <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCIT_C92302">
+        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/NCIT_C23044"/>
+        <obo:IAO_0000115>A microscopy staining method that utilizes toluidine blue, a solution composed of tolonium chloride, to determine the presence of mast cells, lignin, proteoglycans and glycosaminoglycans.</obo:IAO_0000115>
+        <obo:NCIT_NHC0>C92302</obo:NCIT_NHC0>
+        <obo:NCIT_P106>Laboratory Procedure</obo:NCIT_P106>
+        <obo:NCIT_P108>Toluidine Blue Staining Method</obo:NCIT_P108>
+        <obo:NCIT_P207>C0523203</obo:NCIT_P207>
+        <obo:NCIT_P322>CDISC</obo:NCIT_P322>
+        <obo:NCIT_P325>A microscopy staining method that utilizes toluidine blue, a solution composed of tolonium chloride, to determine the presence of mast cells, lignin, proteoglycans and glycosaminoglycans.</obo:NCIT_P325>
+        <oboInOwl:hasExactSynonym>TOLUIDINE BLUE STAIN</oboInOwl:hasExactSynonym>
+        <oboInOwl:hasExactSynonym>Toluidine Blue Staining Method</oboInOwl:hasExactSynonym>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C61410"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C66830"/>
+        <oboInOwl:inSubset rdf:resource="http://purl.obolibrary.org/obo/NCIT_C85492"/>
+        <rdfs:label>Toluidine Blue Staining Method</rdfs:label>
+    </owl:Class>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92302"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes toluidine blue, a solution composed of tolonium chloride, to determine the presence of mast cells, lignin, proteoglycans and glycosaminoglycans.</owl:annotatedTarget>
+        <obo:NCIT_P378>NCI</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92302"/>
+        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/NCIT_P325"/>
+        <owl:annotatedTarget>A microscopy staining method that utilizes toluidine blue, a solution composed of tolonium chloride, to determine the presence of mast cells, lignin, proteoglycans and glycosaminoglycans.</owl:annotatedTarget>
+        <obo:NCIT_P378>CDISC</obo:NCIT_P378>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>TOLUIDINE BLUE STAIN</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>CDISC</obo:NCIT_P384>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/NCIT_C92302"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasExactSynonym"/>
+        <owl:annotatedTarget>Toluidine Blue Staining Method</owl:annotatedTarget>
+        <obo:NCIT_P383>PT</obo:NCIT_P383>
+        <obo:NCIT_P384>NCI</obo:NCIT_P384>
+    </owl:Axiom>
+</rdf:RDF>
+
+
+
+<!-- Generated by the OWL API (version 4.5.6) https://github.com/owlcs/owlapi -->
+
