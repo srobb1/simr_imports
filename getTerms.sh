@@ -37,5 +37,8 @@ for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
     else
       echo "  $i.list is empty"
     fi
+    # get rid of has_specified_input annotations
+    grep -v -e "owl.*OBI_0000293" ${PREFIX}_import.owl > tmp
+    mv tmp ${PREFIX}_import.owl 
  done
 
