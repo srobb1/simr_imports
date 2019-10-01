@@ -1,9 +1,10 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/definitions.owl
 
-#for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
 #for i in NCBITaxon 
-for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+#for i in EFO 
+#for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
@@ -38,7 +39,11 @@ for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
       echo "  $i.list is empty"
     fi
     # get rid of has_specified_input annotations
-    grep -v -e "owl.*OBI_0000293" ${PREFIX}_import.owl > tmp
-    mv tmp ${PREFIX}_import.owl 
+#    grep -v -e "owl:onProperty*OBI_0000293" ${PREFIX}_import.owl > tmp
+#    mv tmp ${PREFIX}_import.owl 
+#    grep -v -e "owl:inverseOf*OBI_0000293" ${PREFIX}_import.owl > tmp
+#    mv tmp ${PREFIX}_import.owl 
+#    grep -v -e "owl:onProperty.*CLO_0000015" ${PREFIX}_import.owl > tmp
+#    mv tmp ${PREFIX}_import.owl 
  done
 
