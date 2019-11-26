@@ -1,5 +1,5 @@
-TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/data/default
-DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simr/src/patterns/definitions.owl
+TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
+DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
 for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
 #for i in NCBITaxon 
