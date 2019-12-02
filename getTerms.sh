@@ -1,7 +1,7 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
-for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO PR CHEBI FBbi MI NCBITaxon OBI
 #for i in NCBITaxon 
 #for i in EFO 
 #for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
