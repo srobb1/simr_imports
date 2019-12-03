@@ -1,7 +1,8 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
-for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in PR EFO CL CLO ERO NCIT NCBITaxon
+#for i in PR EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
 #for i in NCBITaxon 
 #for i in EFO 
 #for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
@@ -25,6 +26,9 @@ for i in EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
     else
       echo "  finding terms for $i "
       grep ${i}: $TSV_DIR/*tsv | perl -p -e 's/.+'$i'\:(\S+).*/http:\/\/purl.obolibrary.org\/obo\/'$i'_$1/g' | sort | uniq > $i.list 
+      if [ -f $i.manual_addition.list ] ; then
+        cat $i.list $i.manual_addition.list | sort | uniq > $i.list
+      fi
       grep ${i}_ $DEFOWL | perl -p -e 's/.+('$i'_\S+)>.*/http:\/\/purl.obolibrary.org\/obo\/$1/g' | sort | uniq >> $i.list 
     fi
     if [ -s "$i.list" ]; then
