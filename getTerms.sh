@@ -1,11 +1,12 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
-for i in PR EFO CL CLO ERO NCIT NCBITaxon
+#for i in PR EFO CL CLO ERO NCIT NCBITaxon
 #for i in PR EFO UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
 #for i in NCBITaxon 
 #for i in EFO 
 #for i in UO UBERON CL CLO ERO GO MS NCIT RO CHEBI FBbi MI NCBITaxon OBI
+for i in ERO CLO CL EFO UBERON NCIT NCBITaxon
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
@@ -42,12 +43,14 @@ for i in PR EFO CL CLO ERO NCIT NCBITaxon
     else
       echo "  $i.list is empty"
     fi
-    # get rid of has_specified_input annotations
-#    grep -v -e "owl:onProperty*OBI_0000293" ${PREFIX}_import.owl > tmp
-#    mv tmp ${PREFIX}_import.owl 
-#    grep -v -e "owl:inverseOf*OBI_0000293" ${PREFIX}_import.owl > tmp
-#    mv tmp ${PREFIX}_import.owl 
-#    grep -v -e "owl:onProperty.*CLO_0000015" ${PREFIX}_import.owl > tmp
-#    mv tmp ${PREFIX}_import.owl 
  done
+
+
+ # get rid of has_specified_input annotations
+ for i in CLO CL OBI 
+    do
+      PREFIX=`echo $i | perl -ne "print lc"`
+      robot remove --input ${PREFIX}_import.owl -t CLO:0000015 -t OBI:0000293 --preserve-structure false annotate --ontology-iri http://purl.obolibrary.org/obo/simro/imports/${PREFIX}_import.owl --output ${PREFIX}_import.owl.tmp.owl 
+      mv ${PREFIX}_import.owl.tmp.owl ${PREFIX}_import.owl
+    done
 
