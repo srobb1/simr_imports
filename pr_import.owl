@@ -119,32 +119,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000051 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/BFO_0000051">
-        <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#TransitiveProperty"/>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000051</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</oboInOwl:id>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_part</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/RO_0000086 -->
-
-    <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0000086">
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">RO:0000086</oboInOwl:hasDbXref>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</oboInOwl:id>
-        <oboInOwl:is_transitive rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</oboInOwl:is_transitive>
-        <oboInOwl:shorthand rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</oboInOwl:shorthand>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">has_quality</rdfs:label>
-    </owl:ObjectProperty>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/RO_0002160 -->
 
     <owl:ObjectProperty rdf:about="http://purl.obolibrary.org/obo/RO_0002160">
@@ -228,138 +202,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/BFO_0000015 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000015">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000015</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">process</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000019 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000019">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000019</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">quality</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000024 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000024">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000024</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fiat object part</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000030 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000030">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000040"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000030</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">object</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/BFO_0000040 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/BFO_0000040">
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">bfo</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">BFO:0000040</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">material entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_23367 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_23367">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_24431"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:23367</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">molecular entity</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any constitutionally or isotopically distinct atom, molecule, ion, ion pair, radical, radical ion, complex, conformer etc., identifiable as a separately distinguishable entity.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">fake:2</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_24431 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_24431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemical entity is a physical entity of interest in chemistry including molecular entities, parts thereof, and chemical substances.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:24431</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chemical entity</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33247 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33247">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Any substituent group or skeleton containing carbon.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33247</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic group</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_33708 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_33708">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33247"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino acid residue</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein residue</oboInOwl:hasNarrowSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:33708</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">amino-acid residue</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">When two or more amino acids combine to form a peptide, the elements of water are removed, and what remains of each amino acid is called an amino-acid residue.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Dummy:dummy</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasNarrowSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein residue</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PRO:DAN</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/CHEBI_50047 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/CHEBI_50047">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_23367"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A compound formally derived from ammonia by replacing one, two or three hydrogen atoms by organyl groups.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">chebi_ontology</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CHEBI:50047</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organic amino compound</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/GO_0004930 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0004930">
@@ -423,7 +265,6 @@
     <!-- http://purl.obolibrary.org/obo/GO_0006412 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0006412">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/GO_0008150"/>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome.</obo:IAO_0000115>
         <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein anabolism</oboInOwl:hasExactSynonym>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
@@ -436,17 +277,6 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">The cellular metabolic process in which a protein is formed, using the sequence of a mature mRNA or circRNA molecule to specify the sequence of amino acids in a polypeptide chain. Translation is mediated by the ribosome, and begins with the formation of a ternary complex between aminoacylated initiator methionine tRNA, GTP, and initiation factor 2, which subsequently associates with the small subunit of the ribosome and an mRNA or circRNA. Translation ends with the release of a polypeptide chain from the ribosome.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GOC:go_curators</oboInOwl:hasDbXref>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/GO_0008150 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/GO_0008150">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000015"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">GO:0008150</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">biological_process</rdfs:label>
-    </owl:Class>
     
 
 
@@ -499,7 +329,6 @@
     <!-- http://purl.obolibrary.org/obo/NCBITaxon_2759 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/NCBITaxon_2759">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/OBI_0100026"/>
         <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">ncbi_taxonomy</oboInOwl:hasOBONamespace>
         <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">euk-</oboInOwl:hasRelatedSynonym>
         <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">NCBITaxon:2759</oboInOwl:id>
@@ -587,17 +416,6 @@
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">rodent</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#PRO-common-name"/>
     </owl:Axiom>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/OBI_0100026 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/OBI_0100026">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000030"/>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">obi</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">OBI:0100026</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">organism</rdfs:label>
-    </owl:Class>
     
 
 
@@ -1748,6 +1566,18 @@
     </owl:Class>
     <owl:Axiom>
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVI1</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
+        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
+        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebi1h</owl:annotatedTarget>
+        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
+    </owl:Axiom>
+    <owl:Axiom>
+        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
         <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A chemokine receptor that is a translation product of the human CCR7 gene or a 1:1 ortholog thereof. The preferred ligands are CCL19 and CCL21.</owl:annotatedTarget>
         <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">PMID:12037138</oboInOwl:hasDbXref>
@@ -1764,18 +1594,6 @@
         <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
         <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
         <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">CMKBR7</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">EVI1</owl:annotatedTarget>
-        <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
-    </owl:Axiom>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/PR_000001203"/>
-        <owl:annotatedProperty rdf:resource="http://www.geneontology.org/formats/oboInOwl#hasRelatedSynonym"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">Ebi1h</owl:annotatedTarget>
         <oboInOwl:hasSynonymType rdf:resource="http://purl.obolibrary.org/obo/pr#Gene-based"/>
     </owl:Axiom>
     
@@ -9301,13 +9119,6 @@
     <!-- http://purl.obolibrary.org/obo/PR_000018263 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000018263">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/CHEBI_50047"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000051"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/CHEBI_33708"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
         <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An organic amino compound that consists of amino acid residues (unmodified amino-acid residues and/or modified amino-acid residues) linked by peptide bonds or derivatives of such bonds.</obo:IAO_0000115>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">peptide</oboInOwl:hasNarrowSynonym>
         <oboInOwl:hasNarrowSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">polypeptide</oboInOwl:hasNarrowSynonym>
@@ -11988,7 +11799,6 @@
     <!-- http://purl.obolibrary.org/obo/PR_000021935 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/PR_000021935">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000024"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/BFO_0000050"/>
@@ -27931,38 +27741,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SO_0000010 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000010">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/BFO_0000019"/>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein-coding</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000010</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein_coding</rdfs:label>
-    </owl:Class>
-    
-
-
-    <!-- http://purl.obolibrary.org/obo/SO_0000110 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000110">
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extent of biological sequence.</obo:IAO_0000115>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located_sequence_feature</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence feature</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:hasRelatedSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">located sequence feature</oboInOwl:hasRelatedSynonym>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000110</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence_feature</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">An extent of biological sequence.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:ke</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SO_0000418 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000418">
@@ -27983,24 +27761,6 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SO_0000704 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0000704">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000110"/>
-        <obo:IAO_0000115 rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</obo:IAO_0000115>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0000704</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">gene</rdfs:label>
-    </owl:Class>
-    <owl:Axiom>
-        <owl:annotatedSource rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <owl:annotatedProperty rdf:resource="http://purl.obolibrary.org/obo/IAO_0000115"/>
-        <owl:annotatedTarget rdf:datatype="http://www.w3.org/2001/XMLSchema#string">A region (or regions) that includes all of the sequence elements necessary to encode a functional transcript. A gene may include regulatory regions, transcribed regions and/or other functional sequence regions.</owl:annotatedTarget>
-        <oboInOwl:hasDbXref rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:immuno_workshop</oboInOwl:hasDbXref>
-    </owl:Axiom>
-    
-
-
     <!-- http://purl.obolibrary.org/obo/SO_0001062 -->
 
     <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001062">
@@ -28012,28 +27772,9 @@
     
 
 
-    <!-- http://purl.obolibrary.org/obo/SO_0001217 -->
-
-    <owl:Class rdf:about="http://purl.obolibrary.org/obo/SO_0001217">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0000704"/>
-        <rdfs:subClassOf>
-            <owl:Restriction>
-                <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0000086"/>
-                <owl:someValuesFrom rdf:resource="http://purl.obolibrary.org/obo/SO_0000010"/>
-            </owl:Restriction>
-        </rdfs:subClassOf>
-        <oboInOwl:hasExactSynonym rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein coding gene</oboInOwl:hasExactSynonym>
-        <oboInOwl:hasOBONamespace rdf:datatype="http://www.w3.org/2001/XMLSchema#string">sequence</oboInOwl:hasOBONamespace>
-        <oboInOwl:id rdf:datatype="http://www.w3.org/2001/XMLSchema#string">SO:0001217</oboInOwl:id>
-        <rdfs:label rdf:datatype="http://www.w3.org/2001/XMLSchema#string">protein_coding_gene</rdfs:label>
-    </owl:Class>
-    
-
-
     <!-- http://www.informatics.jax.org/marker/MGI:101773 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:101773">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28058,7 +27799,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:101775 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:101775">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28083,7 +27823,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:101904 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:101904">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28108,7 +27847,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:101905 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:101905">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28133,7 +27871,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:101907 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:101907">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28158,7 +27895,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:102673 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:102673">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28183,7 +27919,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:102968 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:102968">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28208,7 +27943,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:103011 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:103011">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28233,7 +27967,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:103294 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:103294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28258,7 +27991,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:103567 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:103567">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28283,7 +28015,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:103572 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:103572">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28308,7 +28039,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:104616 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:104616">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28333,7 +28063,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:104618 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:104618">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28358,7 +28087,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:104856 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:104856">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28383,7 +28111,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:104879 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:104879">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28408,7 +28135,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:105057 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:105057">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28433,7 +28159,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:105303 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:105303">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28458,7 +28183,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106185 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106185">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28483,7 +28207,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106201 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106201">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28508,7 +28231,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106645 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106645">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28533,7 +28255,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106662 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106662">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28558,7 +28279,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106664 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106664">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28583,7 +28303,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106910 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106910">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28608,7 +28327,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:106912 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:106912">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28633,7 +28351,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107182 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107182">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28658,7 +28375,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107187 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107187">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28683,7 +28399,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107443 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107443">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28708,7 +28423,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107474 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107474">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28733,7 +28447,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107527 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107527">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28758,7 +28471,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107538 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107538">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28783,7 +28495,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107569 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107569">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28808,7 +28519,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107674 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107674">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28833,7 +28543,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107823 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107823">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28858,7 +28567,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107824 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107824">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28883,7 +28591,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:107899 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:107899">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28908,7 +28615,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:108563 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:108563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28933,7 +28639,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:109294 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:109294">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28958,7 +28663,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:109440 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:109440">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -28983,7 +28687,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:109526 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:109526">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29008,7 +28711,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:109563 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:109563">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29033,7 +28735,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1099800 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1099800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29058,7 +28759,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1100886 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1100886">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29083,7 +28783,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1196275 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1196275">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29108,7 +28807,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1201683 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1201683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29133,7 +28831,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1277207 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1277207">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29158,7 +28855,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1298377 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1298377">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29183,7 +28879,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1309998 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1309998">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29208,7 +28903,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1314891 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1314891">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29233,7 +28927,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1328316 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1328316">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29258,7 +28951,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1333744 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1333744">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29283,7 +28975,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1333797 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1333797">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29308,7 +28999,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1333815 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1333815">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29333,7 +29023,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1336212 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1336212">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29358,7 +29047,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1336885 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1336885">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29383,7 +29071,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1339758 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1339758">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29408,7 +29095,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1349162 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1349162">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29433,7 +29119,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1351314 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1351314">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29458,7 +29143,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1355292 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1355292">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29483,7 +29167,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1858745 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1858745">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29508,7 +29191,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1861231 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1861231">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29533,7 +29215,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1861431 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1861431">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29558,7 +29239,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1888984 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1888984">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29583,7 +29263,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1891436 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1891436">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29608,7 +29287,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1916415 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1916415">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29633,7 +29311,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1916800 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1916800">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29658,7 +29335,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1921853 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1921853">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29683,7 +29359,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1927642 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1927642">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29708,7 +29383,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:1934028 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:1934028">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29733,7 +29407,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:2135946 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:2135946">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29758,7 +29431,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:2143702 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:2143702">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29783,7 +29455,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:2180021 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:2180021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29808,7 +29479,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:2180216 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:2180216">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29833,7 +29503,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:3512453 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:3512453">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29858,7 +29527,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:3712069 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:3712069">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29883,7 +29551,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:5000466 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:5000466">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29908,7 +29575,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:87883 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:87883">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29933,7 +29599,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88070 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88070">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29958,7 +29623,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88318 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88318">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -29983,7 +29647,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88319 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88319">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30008,7 +29671,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88320 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88320">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30033,7 +29695,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88321 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88321">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30058,7 +29719,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88322 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88322">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30083,7 +29743,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88323 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88323">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30108,7 +29767,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88326 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88326">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30133,7 +29791,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88327 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88327">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30158,7 +29815,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88332 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88332">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30183,7 +29839,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88337 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88337">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30208,7 +29863,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88338 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88338">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30233,7 +29887,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88339 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88339">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30258,7 +29911,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88340 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88340">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30283,7 +29935,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88342 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88342">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30308,7 +29959,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88343 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88343">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30333,7 +29983,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88344 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88344">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30358,7 +30007,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88346 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88346">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30383,7 +30031,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88348 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88348">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30408,7 +30055,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88354 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88354">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30433,7 +30079,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88489 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30458,7 +30103,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:88556 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:88556">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30483,7 +30127,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95296 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95296">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30508,7 +30151,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95494 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95494">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30533,7 +30175,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95497 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95497">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30558,7 +30199,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95498 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95498">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30583,7 +30223,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95499 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95499">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30608,7 +30247,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95500 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95500">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30633,7 +30271,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95559 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95559">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30658,7 +30295,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95574 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95574">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30683,7 +30319,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95594 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95594">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30708,7 +30343,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95661 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95661">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30733,7 +30367,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95662 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95662">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30758,7 +30391,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95663 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95663">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30783,7 +30415,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:95697 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:95697">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30808,7 +30439,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96019 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96019">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30833,7 +30463,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96021 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96021">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30858,7 +30487,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96549 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96549">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30883,7 +30511,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96550 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96550">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30908,7 +30535,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96553 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96553">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30933,7 +30559,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96558 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96558">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30958,7 +30583,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96562 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96562">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -30983,7 +30607,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96600 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96600">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31008,7 +30631,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96601 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96601">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31033,7 +30655,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96603 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96603">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31058,7 +30679,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96607 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96607">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31083,7 +30703,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96609 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96609">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31108,7 +30727,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96616 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96616">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31133,7 +30751,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96677 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96677">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31158,7 +30775,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96683 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96683">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31183,7 +30799,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96757 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96757">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31208,7 +30823,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96777 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96777">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31233,7 +30847,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96837 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96837">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31258,7 +30871,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:96965 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:96965">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31283,7 +30895,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97004 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97004">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31308,7 +30919,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97137 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97137">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31333,7 +30943,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97142 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97142">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31358,7 +30967,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97249 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97249">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31383,7 +30991,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97281 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97281">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31408,7 +31015,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97489 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97489">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31433,7 +31039,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97551 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97551">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31458,7 +31063,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97612 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97612">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31483,7 +31087,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97848 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97848">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31508,7 +31111,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:97849 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:97849">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31533,7 +31135,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98257 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98257">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31558,7 +31159,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98279 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98279">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31583,7 +31183,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98282 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98282">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31608,7 +31207,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98384 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98384">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31633,7 +31231,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98427 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98427">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31658,7 +31255,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98480 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98480">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31683,7 +31279,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98659 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98659">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31708,7 +31303,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98736 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98736">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31733,7 +31327,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:98822 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:98822">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31758,7 +31351,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:99440 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:99440">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31783,7 +31375,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:99480 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:99480">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31808,7 +31399,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:99668 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:99668">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>
@@ -31833,7 +31423,6 @@
     <!-- http://www.informatics.jax.org/marker/MGI:99852 -->
 
     <owl:Class rdf:about="http://www.informatics.jax.org/marker/MGI:99852">
-        <rdfs:subClassOf rdf:resource="http://purl.obolibrary.org/obo/SO_0001217"/>
         <rdfs:subClassOf>
             <owl:Restriction>
                 <owl:onProperty rdf:resource="http://purl.obolibrary.org/obo/RO_0002160"/>

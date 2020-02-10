@@ -1,6 +1,7 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
+# ALL
 for i in PR ERO CLO EFO UBERON NCIT NCBITaxon
 
   do
@@ -31,10 +32,12 @@ for i in PR ERO CLO EFO UBERON NCIT NCBITaxon
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
       export ROBOT_JAVA_ARGS=-Xmx12G
+      METHOD=STAR
+      #METHOD=BOT
       if [ $PREFIX == "efo" ];then
-        robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
+        robot extract --method $METHOD --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
        else
-        robot extract --method BOT --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
+        robot extract --method $METHOD --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
        fi
     else
       echo "  $i.list is empty"
