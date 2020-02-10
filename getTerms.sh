@@ -1,8 +1,8 @@
 TSV_DIR=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/data/default
 DEFOWL=/Users/smr/src/ontology/SIMR_ONTOLOGY/simro/src/patterns/definitions.owl
 
-for i in ERO CLO EFO UBERON NCIT NCBITaxon
-#for i in ERO CLO CL EFO UBERON NCIT NCBITaxon
+for i in PR ERO CLO EFO UBERON NCIT NCBITaxon
+
   do
     PREFIX=`echo $i | perl -ne "print lc"`
     echo "processing $i"
