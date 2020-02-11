@@ -32,8 +32,8 @@ for i in PR ERO CLO EFO UBERON NCIT NCBITaxon
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
       export ROBOT_JAVA_ARGS=-Xmx12G
-      METHOD=STAR
-      #METHOD=BOT
+      #METHOD=MIREOT
+      METHOD=BOT
       if [ $PREFIX == "efo" ];then
         robot extract --method $METHOD --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
        else
