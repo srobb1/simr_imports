@@ -27,12 +27,12 @@ for i in PR ERO CLO EFO UBERON NCIT NCBITaxon
       if [ -f $i.manual_addition.list ] ; then
         cat $i.list $i.manual_addition.list | sort | uniq > $i.list
       fi
-      grep ${i}_ $DEFOWL | perl -p -e 's/.+('$i'_\S+)>.*/http:\/\/purl.obolibrary.org\/obo\/$1/g' | sort | uniq >> $i.list 
+      grep ${i}_ $DEFOWL | perl -p -e 's/.+('$i'_\w+).*/http:\/\/purl.obolibrary.org\/obo\/$1/g' | sort | uniq >> $i.list 
     fi
     if [ -s "$i.list" ]; then
       echo "  extracting terms for $i"
       export ROBOT_JAVA_ARGS=-Xmx12G
-      #METHOD=MIREOT
+      #METHOD=STAR
       METHOD=BOT
       if [ $PREFIX == "efo" ];then
         robot extract --method $METHOD --input $PREFIX.owl --term-file $i.list --output ${PREFIX}_import.owl
